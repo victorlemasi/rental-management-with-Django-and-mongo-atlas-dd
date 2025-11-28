@@ -1,6 +1,6 @@
 import express from 'express';
-import { mpesaService } from '../services/mpesa';
-import { auth } from '../middleware/auth';
+import { mpesaService } from '../services/mpesa.js';
+import { auth } from '../middleware/auth.js';
 
 const router = express.Router();
 
